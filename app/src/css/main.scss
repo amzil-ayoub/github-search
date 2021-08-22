@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+$color1:#003566;
+$color2:#198754;
+$color3:#fff;
+
+html,body{
+	font-family: 'Cabin', sans-serif;
+	background-color: #f4f1de;
+}
+.header{
+	background-color:$color1;
+	padding: 20px;
+
+	#searchInput{
+		border-radius: 4px 0px 0px 4px;
+		border: 1px solid $color3;
+		padding: 0px 10px;
+		&:focus{
+			outline:none;
+			}
+		}
+
+	#searchBtn{
+		border: 1px solid $color3;
+		border-left:none;
+		&:focus{
+			border: none;
+			}
+		&:focus{
+			border: 1px solid $color3;
+			}
+		}
+
+
+	.msgStyle{
+		padding:7px;
+		margin:0px;
+		color:#fff;
+		background-color:red;
+		opacity:0.8;
+		text-align:center;
+	}
+}
+.result{
+	height: 500px;
+
+	.profileDrag{
+		height: 100%;
+		margin: 20px;
+		margin-right: 0px;
+
+		.profileResult{
+			overflow-y:scroll;
+			height: 100%;
+			direction:rtl;
+
+			.profile{
+				box-shadow: 0px 3px 7px 0px #ccc;
+				margin: 5px;
+				margin-bottom:5px;
+				background-color: $color3;
+				direction:ltr;
+				padding:10px;
+				border-radius:5px;
+
+					p{
+						color:$color1;
+						font-weight: bold;
+						text-align:center;
+						margin:0px;
+						margin-top:2px;
+						margin-bottom:10px;
+					}
+					img{
+						width:100%;
+						
+					}
+				}
+			}
+		}
+
+	.profileDrop{
+			background-color: $color3;
+			height: 100%;
+			margin: 20px;
+			margin-left: 0px;
+			padding: 20px; 
+			border: 2px dashed #ccc;
+			transition : all 0.3s linear;
+
+			img{
+				width:100%;
+			}
+
+			p{
+				span{
+					&:first-of-type{
+						text-decoration:underline;
+						padding-right:10px;
+					}
+					
+				}
+
+				&:first-of-type{
+					margin-top:20px;
+				}
+				&:last-of-type{
+					text-align:center;
+
+					a{
+						padding:10px;
+					}
+				}
+			}
+		}
+	.overflw{
+		overflow-y:scroll;
+	}
+}

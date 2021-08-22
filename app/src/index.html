@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="autor" content="Ayoub Amzil">
+        <link rel="shortcut icon" type="image/png" href="img/favi.png"/>
+        <title>Github search engine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container-fluid"> 
+			<div class="row header">
+				<div class="col-md-5">
+					<div class="input-group" id="Inputs">
+						<input placeholder=" . . . " id="searchInput">
+					  	<button type="button" class="btn shadow-none btn-success" id="searchBtn"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+				<div class="col-md-3"><p class="" id="msg"></p></div>
+			</div>	
+
+			<div class="row result">
+				<div class="col-md-7 profileDrag">
+					<div class="row justify-content-center profileResult" id="profRes">
+						
+						<div class="col-md-3 profile" data-profile-id="">
+							<p>
+								<span>Hello, world!</span>
+							</p>
+							<img src="img/1.png">
+						</div>
+						<div class="col-md-3 profile" data-profile-id="">
+							<p>
+								<span>Hello, world!</span>
+							</p>
+							<img src="img/2.png">
+						</div>
+						<div class="col-md-3 profile" data-profile-id="">
+							<p>
+								<span>Hello, world!</span>
+							</p>
+							<img src="img/3.png">
+						</div>
+						<div class="col-md-3 profile" data-profile-id="">
+							<p>
+								<span>Hello, world!</span>
+							</p>
+							<img src="img/4.png">
+						</div>
+						<div class="col-md-3 profile" data-profile-id="">
+							<p>
+								<span>Hello, world!</span>
+							</p>
+							<img src="img/5.png">
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-4 profileDrop overflw" id="dropDiv">
+					<img id ="imgDrop" src="img/5.png">
+					<p><span>type:</span><span id="ty">luitm arom isnin duitoros</span></p>
+					<p><span>name:</span><span id="nm">luitm arom isnin duitoros</span></p>
+					<p><span>bio:</span><span id="bio">luitm arom isnin duitoros</span></p>
+					<p><span>email:</span><span id="em">luitm arom isnin duitoros</span></p>
+					<p><span>followers:</span><span id="frs">luitm arom isnin duitoros</span></p>
+					<p><span>following:</span><span id="fling">luitm arom isnin duitoros</span></p>
+					<p><span>created at:</span><span id="dt">luitm arom isnin duitoros</span></p>
+					<p><a href="#" id="prf" target="_blanc"><button type="button" class="btn shadow-none btn-success">profile</button></a><a href="#"id="repo" target="_blanc"><button type="button" class="btn shadow-none btn-success">repositories</button></a></p>
+				</div>
+			</div>
+			
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script> 
+    </body>
+</html>

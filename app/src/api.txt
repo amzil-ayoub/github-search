@@ -1,0 +1,25 @@
+user:
+https://api.github.com/users/{usename}
+
+repo:
+https://api.github.com/repositories/{id}
+
+
+
+https://api.github.com/search/repositories?q=
+in: name/description/readme
+
+
+https://api.github.com/search/users?q=
+in: name/login
+
+objGitProfile.avatar_url
+objGitProfile.html_url
+objGitProfile.type
+objGitProfile.name
+objGitProfile.email
+objGitProfile.bio
+objGitProfile.public_repos
+objGitProfile.followers
+objGitProfile.following
+objGitProfile.created_at
